@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="nimh.css">
+    <title>NIMH</title>
+</head>
+<body>
+
+<h2>Welcome to the game of NIMH</h2>
+<h3>Person 1, Go!</h3>
+<div id="allGroups">
+    <div class="group" id="group1">
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <label for="group1_input">Remove: </label>
+        <input type="number" id="group1_input" min="0" max="7">
+        <input type="submit" id="group1_submit">
+    </div>
+
+    <div class="group" id="group2">
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <label for="group2_input">Remove: </label>
+        <input type="number" id="group2_input" min="0" max="7">
+        <input type="submit" id="group2_submit">
+    </div>
+
+    <div class="group" id="group3">
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <div class="coin"></div>
+        <label for="group3_input">Remove: </label>
+        <input type="number" id="group3_input"  min="0" max="7">
+        <input type="submit" id="group3_submit">
+    </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="nimh2.js"></script>
+</body>
+</html>
